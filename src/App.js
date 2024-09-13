@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// import Chart from "./Chart/Chart";
+// import InfiniteScroll from "./InfiniteScroll/InfiniteScroll";
+// import ResponsiveLayout from "./ResponsiveLayout/ResponsiveLayout";
+// import DropDown from "./DropDown/DropDown";
+// import DragAndDrop from "./DragAndDrop/DragAndDrop";
+// import ModalComponent from "./Modal/ModalComponent";
+// import CountdownTimer from "./CountdownTimer/CountdownTimer";
+// import LogInForm from "./LogInForm/LogInForm";
+// import Pagination from "./Pagination/Pagination";
+// import WeatherApp from "./WeatherApp/WeatherApp";
+// import TodoList from "./TodoList/TodoList";
+import Quiz from "./Quiz/Quiz";
+
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {/* <Chart /> */}
+      {/* <TodoList /> */}
+      {/* <WeatherApp /> */}
+      {/* <Pagination /> */}
+      {/* <LogInForm /> */}
+      {/* <CountdownTimer /> */}
+      {/* <ModalComponent /> */}
+      {/* <DragAndDrop /> */}
+      {/* <DropDown />  */}
+      {/* <ResponsiveLayout /> */}
+      {/* <InfiniteScroll /> */}
+      <Quiz />
     </div>
   );
 }
